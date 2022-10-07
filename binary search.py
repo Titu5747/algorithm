@@ -17,4 +17,5 @@ for n in range(len(list_1)):
     list_1[n]=int(list_1[n])
 print(list_1)
 key=int(input())
-res=binarySearc
+res=binarySearch(list,key)
+print(res)
